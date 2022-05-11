@@ -1,12 +1,14 @@
 # Sing Up Page using useReductor Hook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a small proyect to practice React Hooks.
 
-## Available Scripts
+It has validations, event and state handling and useReductor Hook.
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/86936759/167755804-69ab20ae-ea30-4775-884c-1a8c6db09b39.png)
+
+
+This project was bootstrapped with [Create React App]
+
+## To install:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
