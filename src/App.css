@@ -1,4 +1,4 @@
-input:focus{
+input:focus, button:focus{
   outline: none;
 }
 
@@ -52,11 +52,55 @@ input:focus{
   font-family: 'Open Sans', sans-serif;
 }
 
-.Checkbox {
+.CheckboxLabel {
   margin-left: 20px;
-  vertical-align: bottom;
   font-family: 'Open sans', sans-serif;
   color: white;
   font-weight: 600;
+} 
+
+.Checkbox{
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  margin-right: 10px;
+  margin-left: -20px;
+  cursor: pointer;
 }
 
+.RegisterForm button {
+  height: 60px;
+  width: 100%;
+  padding: 15px 32px;
+  margin-top: 40px;
+  display: inline-block;
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+
+  border: none;
+  border-radius: 40px;
+  color: white;
+  background-color: #db5461;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  
+  transition: background 150ms ease-in-out;
+  cursor: pointer;
+}
+
+
+.RegisterForm button:active{
+  transform: scale(0.9);
+  transition-duration: 500ms;
+}
+
+.Disabled {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.Disabled:active{
+  transform: none !important;
+}
